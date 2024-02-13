@@ -1,0 +1,384 @@
+body{
+    background-color: rgb(202, 225, 249);
+
+}
+.main{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+}
+.flex{display: flex;
+    justify-content: center;
+
+
+}
+ 
+.m-20{
+    background-color: rgba(255, 235, 205, 0);
+}
+.ya:hover{
+    transform: rotate(-20deg);
+
+}
+
+.o, .x, .y{
+    margin:10px 40px;
+    text-align: center;
+}
+
+.xa, .xb, .xc{
+    margin-left: 6px;
+    border-radius: 99px;
+    padding:0px 5px;
+    background-color: chocolate; 
+
+}
+ .ya, .yb, .yc{
+    margin-left: 8px;
+    border-radius: 99px;
+    padding:0px 5px;
+    background-color: rgba(5, 104, 104, 0.318); 
+}
+.oa, .ob, .oc{
+    margin-left: 6px;
+    border-radius: 99px;
+    padding:0px 5px;
+    background-color: rgb(5, 104, 104); 
+}
+
+/* start x */
+
+.hidea{ 
+    display: none;
+    position: absolute;
+
+}
+.xa:hover .hidea{
+    display: block;
+}
+.xa{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: red;
+    animation-name: xa;
+    position: relative;
+}
+
+@keyframes xa {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+/* end xa */
+
+
+
+/* start xb */
+
+
+
+.xb:hover{
+    transform: rotate(-30deg);
+}
+.xb{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: yellow;
+    animation-name: xb;
+    position: relative;
+}
+
+@keyframes xb {
+    0%   {background-color: yellow;}
+    25%  {background-color: red;}
+    50%  {background-color:  green;}
+    100% {background-color:blue ;}
+  }
+  
+  /* end xb */
+
+  /* start xc */
+
+
+  .hidec{ 
+    display: none;
+    position: absolute;
+
+}
+.xc:hover .hidec{
+    display: block;
+}
+.xc{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: red;
+    animation-name: xc;
+    position: relative;
+}
+
+@keyframes xc {
+    0%   {background-color:   red;}
+    25%  {background-color:blue ;}
+    50%  {background-color:  green;}
+    100% {background-color:yellow ;}
+  }
+
+
+  /* end xc */
+
+
+
+
+.ya:hover{
+    transform: rotate(-60deg);
+}
+.ya{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: blue;
+    animation-name: ya;
+    position: relative;
+}
+
+@keyframes ya {
+    0%   {background-color:  blue;}
+    25%  {background-color: red;}
+    50%  {background-color:  green;}
+    100% {background-color:yellow ;}
+  }
+
+/* end ya */
+
+.hideyb{ 
+    display: none;
+    position: absolute;
+
+}
+.yb:hover .hideyb{
+    display: block;
+}
+.yb{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: green;
+    animation-name: yb;
+    position: relative;
+}
+
+@keyframes yb {
+    0%   {background-color:   green;}
+    25%  {background-color:blue ;}
+    50%  {background-color:  red ;}
+    100% {background-color:yellow ;}
+  }
+
+  /* end yb */
+
+  
+
+.yc:hover{
+    transform: rotate(40deg);
+}
+.yc{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: blue;
+    animation-name: yc;
+    position: relative;
+}
+
+@keyframes yc {
+    0%   {background-color:  blue;}
+    25%  {background-color:  yellow;}
+    50%  {background-color:  green;}
+    100% {background-color:red ;}
+  }
+
+
+  /* end yc */
+.f-w{
+    font-weight: 900;
+}
+.hoveroa{
+    display: none;
+    position: absolute;
+}
+  .oa:hover .hoveroa{
+display: block;}
+.oa{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: red;
+    animation-name: oa;
+    position: relative;
+}
+
+@keyframes oa {
+    0%   {background-color:   red;}
+    25%  {background-color:  yellow;}
+    50%  {background-color: blue ;}
+    100% {background-color: green ;}
+  }
+
+/* end oa */
+
+
+
+.ob:hover{
+    transform: rotate(60deg);
+
+    
+}
+.ob{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: green;
+    animation-name: ob;
+}
+
+@keyframes ob {
+    0%   {background-color:   green;}
+    25%  {background-color:  yellow;}
+    50%  {background-color: red ;}
+    100% {background-color: blue ;}
+  }
+
+/* end ob */
+.hoveroc{
+    display: none;
+    position: absolute;
+
+}
+.oc:hover .hoveroc{
+display: block;}
+
+.oc{
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration:4s ;
+    width: 26px;
+    height: 27px;
+    background-color: yellow;
+    animation-name: oc;
+    position: relative;
+}
+
+@keyframes oc {
+    0%   {background-color:   yellow;}
+    25%  {background-color: red;}
+    50%  {background-color:   blue;}
+    100% {background-color:green ;}
+  }
+
+/* end oc */
+
+.round{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius:99px ;
+    animation-name: round;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 0s;
+
+}
+@keyframes round {
+    0%   {background-color: red; left:0px; top: 0px;}
+    25%  {background-color: yellow; left:600px; top: 0px;}
+    50%  {background-color: blue; left:600px; top: 200px;}
+    75%{background-color: rgb(78, 78, 105); left:0px; top: 200px;}
+    100% {background-color: green; left:0px; top: 0px;}
+
+    
+}
+.rounda{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius:99px ;
+    animation-name: rounda;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 2s;
+
+
+}
+@keyframes rounda {
+    0%   {background-color: red; left:0px; top: 0px;}
+    25%  {background-color: yellow; left:600px; top: 0px;}
+    50%  {background-color: blue; left:600px; top: 200px;}
+    75%{background-color: rgb(78, 78, 105); left:0px; top: 200px;}
+    100% {background-color: green; left:0px; top: 0px;}
+
+    
+}
+.roundc{
+    width: 20px;
+    height: 20px;
+    border-radius:99px ;
+    animation-name: roundc;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 3s;
+
+}
+@keyframes roundc {
+    0%   {background-color: red; left:0px; top: 0px;}
+    25%  {background-color: yellow; left:300px; top: 0px;}
+    50%  {background-color: blue; left:300px; top: 210px;}
+    75%{background-color: rgb(78, 78, 105); left:0px; top: 210px;}
+    100% {background-color: green; left:0px; top: 0px;}
+
+    
+}
+.roundd{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    border-radius:99px ;
+    animation-name: roundd;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 4s;
+
+}
+@keyframes roundd {
+    0%   {background-color: red; left:0px; top: 0px;}
+    25%  {background-color: yellow; left:600px; top: 0px;}
+    50%  {background-color: blue; left:600px; top: 200px;}
+    75%{background-color: rgb(78, 78, 105); left:0px; top: 200px;}
+    100% {background-color: green; left:0px; top: 0px;}
+
+    
+}
