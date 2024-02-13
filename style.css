@@ -28,26 +28,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .flex{display: flex;
     justify-content: center;
 
@@ -63,7 +43,7 @@ body{
 }
 
 .o, .x, .y{
-    margin:10px 40px;
+    margin:11px 40px;
     text-align: center;
 }
 
